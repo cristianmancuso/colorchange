@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Color Background change</title>
+</head>
+<body>
+    <!--Div container-->
+    <div class="w-screen h-screen  pt-2 flex justify-start items-center flex-col gap-2" id='divPrincipal'>
+        
+        <!--Div top-->
+        <div class="w-[500px] h-[60px] border border-black  bg-white flex justify-center items-center flex-row gap-5 rounded">
+            <div class="flex justify-center items-center flex-row gap-5">
+            <!--Input and Label-->
+            <label class="text-black text-xl font-bold" for="inputColorChoose">Choose color:</label>
+            <input class="" type="color" name="choosecolor" id="inputColorChoose">
+        </div>
+        <div class="flex flex-row gap-2">
+            <button class="bg-white  text-black border border-black p-2 rounded"  id="btnChange">Change color</button>
+            <button class="bg-white  text-black border border-black p-2 rounded" id="btnSave">Save color</button>
+        </div>
+        </div>
+
+        <!--Div down-->
+        <div class="w-[500px] h-auto py-2 bg-white border border-black flex justify-center items-center flex-col gap-5 rounded">
+            <div>
+                <ul id="listaColores">
+
+                </ul>
+            </div>
+        
+        </div>
+        
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "colorchange",
+  "version": "1.0.0",
+  "description": "Select color and the background chance, also you can save the colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mancuso Cristian",
+  "license": "ISC"
+}
